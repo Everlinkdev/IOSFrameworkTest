@@ -1,0 +1,6 @@
+framework module Pods_EverlinkIntergrationTest_EverlinkIntergrationTestUITests {
+  umbrella header "Pods-EverlinkIntergrationTest-EverlinkIntergrationTestUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_EverlinkIntergrationTest_EverlinkIntergrationTestUITests : NSObject
+@end
+@implementation PodsDummy_Pods_EverlinkIntergrationTest_EverlinkIntergrationTestUITests
+@end

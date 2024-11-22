@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import EverlinkBroadcastSDK
 
 class ViewController: UIViewController {
 

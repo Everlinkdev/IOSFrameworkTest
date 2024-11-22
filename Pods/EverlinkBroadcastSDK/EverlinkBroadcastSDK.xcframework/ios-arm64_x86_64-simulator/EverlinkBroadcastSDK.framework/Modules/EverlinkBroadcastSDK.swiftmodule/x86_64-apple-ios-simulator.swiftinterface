@@ -1,0 +1,116 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 effective-4.2 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target x86_64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 4.2 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name EverlinkBroadcastSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import AVFoundation
+import AVKit
+import Accelerate
+import CallKit
+import CommonCrypto
+import CoreAudio
+@_exported import EverlinkBroadcastSDK
+import Foundation
+import MediaPlayer
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers public class TokenCheck {
+  public func isTokenValid(tokenTimestamp: Swift.Int64) -> Swift.Bool
+  public func isTokenExpired(tokenTimestamp: Swift.Int64) -> Swift.Bool
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class CreateToken {
+  public func generateToken()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class DeviceToken {
+  public func setToken(_token: Swift.String, _startDate: Swift.String)
+  public func getToken() -> Swift.String
+  public func getTokenTimestamp() -> Swift.String
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class InternetCheck {
+  public func pingHost(completion: @escaping (Swift.Bool) -> Swift.Void)
+  @objc deinit
+}
+@objc public protocol EverlinkEventDelegate {
+  @objc func onAudiocodeReceived(token: Swift.String)
+  @objc func onMyTokenGenerated(token: Swift.String, oldToken: Swift.String)
+}
+public struct DefaultsObj {
+}
+@_hasMissingDesignatedInitializers public class MatchController {
+  public func matchAudiocode(completion: @escaping (Swift.String?, (any Swift.Error)?) -> Swift.Void)
+  @objc deinit
+}
+public class EverHash {
+  public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class EverlinkError {
+  public func getError() -> EverlinkBroadcastSDK.ErrObj
+  public func getErrorMessage() -> Swift.String
+  public func getErrorCode() -> Swift.Int
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class NewAudiocode {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class ErrorCodes {
+  public func getError() -> EverlinkBroadcastSDK.ErrObj
+  @objc deinit
+}
+@objc public class Everlink : ObjectiveC.NSObject {
+  public var delegate: (any EverlinkBroadcastSDK.EverlinkEventDelegate)?
+  @objc public init(appID: Swift.String)
+  @objc public func createNewToken(startDate: Swift.String)
+  @objc public func startDetecting() throws
+  @objc public func stopDetecting()
+  @objc public func saveSounds(tokensArray: Swift.Array<Swift.String>)
+  @objc public func clearSounds()
+  @objc public func startEmitting() throws
+  @objc public func startEmittingToken(token: Swift.String) throws
+  @objc public func stopEmitting()
+  @objc public func playVolume(volume: Swift.Float, loudspeaker: Swift.Bool)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class NetworkCall {
+  public func performPostCall(completion: @escaping (Foundation.Data?, (any Swift.Error)?) -> Swift.Void)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class LocalTokensArray {
+  public func saveTokenAndSounds(_tokensArray: Swift.Array<Swift.String>, appID: Swift.String, completion: @escaping (Swift.Bool?, (any Swift.Error)?) -> Swift.Void)
+  public func getArray() -> [EverlinkBroadcastSDK.DefaultsObj]
+  public func clearSavedArray()
+  @objc deinit
+}
+public struct ErrObj : Swift.Error {
+  public enum ErrType {
+    case badAppIDKey
+    case invalidToken
+    case invalidArgument
+    case tokenNotDownloaded
+    case tokenNotFound
+    case everlinkError
+    case callActive
+    public static func == (a: EverlinkBroadcastSDK.ErrObj.ErrType, b: EverlinkBroadcastSDK.ErrObj.ErrType) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public let message: Swift.String
+  public let type: EverlinkBroadcastSDK.ErrObj.ErrType
+  public let errorCode: Swift.Int
+}
+@_hasMissingDesignatedInitializers public class Doppler {
+  public func checkLeft(_freq: Swift.Double, _audioCode: Swift.Double) -> Swift.Bool
+  public func checkRight(_freq: Swift.Double, _audioCode: Swift.Double) -> Swift.Bool
+  public func checkBoth2(_freq: Swift.Double, _audioCode: Swift.Double) -> Swift.Bool
+  public func checkBoth(_freq: Swift.Int, _audioCode: Swift.Int) -> Swift.Bool
+  public func checkEqual(freq: Swift.Int, audioCode: Swift.Int) -> Swift.Bool
+  @objc deinit
+}
+extension EverlinkBroadcastSDK.ErrObj.ErrType : Swift.Equatable {}
+extension EverlinkBroadcastSDK.ErrObj.ErrType : Swift.Hashable {}

@@ -1,0 +1,11 @@
+framework module EverlinkBroadcastSDK {
+  umbrella header "EverlinkBroadcastSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module EverlinkBroadcastSDK.Swift {
+  header "EverlinkBroadcastSDK-Swift.h"
+  requires objc
+}

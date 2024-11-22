@@ -1,0 +1,16 @@
+PODS:
+  - EverlinkBroadcastSDK (3.0.0-beta.1)
+
+DEPENDENCIES:
+  - EverlinkBroadcastSDK (= 3.0.0-beta.1)
+
+SPEC REPOS:
+  trunk:
+    - EverlinkBroadcastSDK
+
+SPEC CHECKSUMS:
+  EverlinkBroadcastSDK: 9495ab2e562afc40d31b0fe333869454cff82959
+
+PODFILE CHECKSUM: 343e8dfa6cd3d72826933a67be526e53a5dad702
+
+COCOAPODS: 1.16.2
