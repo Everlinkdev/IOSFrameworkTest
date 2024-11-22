@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		9F5C35A42CF01CFD007C2961 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F5C35822CF01CFC007C2961 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F5C35892CF01CFC007C2961;
+			remoteInfo = EverlinkIntergrationTest;
+		};
+		9F5C35AE2CF01CFD007C2961 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F5C35822CF01CFC007C2961 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F5C35892CF01CFC007C2961;
+			remoteInfo = EverlinkIntergrationTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F5C358A2CF01CFC007C2961 /* EverlinkIntergrationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EverlinkIntergrationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F5C35A32CF01CFD007C2961 /* EverlinkIntergrationTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EverlinkIntergrationTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F5C35AD2CF01CFD007C2961 /* EverlinkIntergrationTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EverlinkIntergrationTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		9F5C35B52CF01CFD007C2961 /* Exceptions for "EverlinkIntergrationTest" folder in "EverlinkIntergrationTest" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 9F5C35892CF01CFC007C2961 /* EverlinkIntergrationTest */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9F5C358C2CF01CFC007C2961 /* EverlinkIntergrationTest */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				9F5C35B52CF01CFD007C2961 /* Exceptions for "EverlinkIntergrationTest" folder in "EverlinkIntergrationTest" target */,
+			);
+			path = EverlinkIntergrationTest;
+			sourceTree = "<group>";
+		};
+		9F5C35A62CF01CFD007C2961 /* EverlinkIntergrationTestTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EverlinkIntergrationTestTests;
+			sourceTree = "<group>";
+		};
+		9F5C35B02CF01CFD007C2961 /* EverlinkIntergrationTestUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EverlinkIntergrationTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F5C35872CF01CFC007C2961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F5C35A02CF01CFD007C2961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F5C35AA2CF01CFD007C2961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F5C35812CF01CFC007C2961 = {
+			isa = PBXGroup;
+			children = (
+				9F5C358C2CF01CFC007C2961 /* EverlinkIntergrationTest */,
+				9F5C35A62CF01CFD007C2961 /* EverlinkIntergrationTestTests */,
+				9F5C35B02CF01CFD007C2961 /* EverlinkIntergrationTestUITests */,
+				9F5C358B2CF01CFC007C2961 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F5C358B2CF01CFC007C2961 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F5C358A2CF01CFC007C2961 /* EverlinkIntergrationTest.app */,
+				9F5C35A32CF01CFD007C2961 /* EverlinkIntergrationTestTests.xctest */,
+				9F5C35AD2CF01CFD007C2961 /* EverlinkIntergrationTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F5C35892CF01CFC007C2961 /* EverlinkIntergrationTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F5C35B62CF01CFD007C2961 /* Build configuration list for PBXNativeTarget "EverlinkIntergrationTest" */;
+			buildPhases = (
+				9F5C35862CF01CFC007C2961 /* Sources */,
+				9F5C35872CF01CFC007C2961 /* Frameworks */,
+				9F5C35882CF01CFC007C2961 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				9F5C358C2CF01CFC007C2961 /* EverlinkIntergrationTest */,
+			);
+			name = EverlinkIntergrationTest;
+			packageProductDependencies = (
+			);
+			productName = EverlinkIntergrationTest;
+			productReference = 9F5C358A2CF01CFC007C2961 /* EverlinkIntergrationTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F5C35A22CF01CFD007C2961 /* EverlinkIntergrationTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F5C35BB2CF01CFD007C2961 /* Build configuration list for PBXNativeTarget "EverlinkIntergrationTestTests" */;
+			buildPhases = (
+				9F5C359F2CF01CFD007C2961 /* Sources */,
+				9F5C35A02CF01CFD007C2961 /* Frameworks */,
+				9F5C35A12CF01CFD007C2961 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F5C35A52CF01CFD007C2961 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9F5C35A62CF01CFD007C2961 /* EverlinkIntergrationTestTests */,
+			);
+			name = EverlinkIntergrationTestTests;
+			packageProductDependencies = (
+			);
+			productName = EverlinkIntergrationTestTests;
+			productReference = 9F5C35A32CF01CFD007C2961 /* EverlinkIntergrationTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F5C35AC2CF01CFD007C2961 /* EverlinkIntergrationTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F5C35BE2CF01CFD007C2961 /* Build configuration list for PBXNativeTarget "EverlinkIntergrationTestUITests" */;
+			buildPhases = (
+				9F5C35A92CF01CFD007C2961 /* Sources */,
+				9F5C35AA2CF01CFD007C2961 /* Frameworks */,
+				9F5C35AB2CF01CFD007C2961 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F5C35AF2CF01CFD007C2961 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9F5C35B02CF01CFD007C2961 /* EverlinkIntergrationTestUITests */,
+			);
+			name = EverlinkIntergrationTestUITests;
+			packageProductDependencies = (
+			);
+			productName = EverlinkIntergrationTestUITests;
+			productReference = 9F5C35AD2CF01CFD007C2961 /* EverlinkIntergrationTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F5C35822CF01CFC007C2961 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					9F5C35892CF01CFC007C2961 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					9F5C35A22CF01CFD007C2961 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 9F5C35892CF01CFC007C2961;
+					};
+					9F5C35AC2CF01CFD007C2961 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 9F5C35892CF01CFC007C2961;
+					};
+				};
+			};
+			buildConfigurationList = 9F5C35852CF01CFC007C2961 /* Build configuration list for PBXProject "EverlinkIntergrationTest" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F5C35812CF01CFC007C2961;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9F5C358B2CF01CFC007C2961 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F5C35892CF01CFC007C2961 /* EverlinkIntergrationTest */,
+				9F5C35A22CF01CFD007C2961 /* EverlinkIntergrationTestTests */,
+				9F5C35AC2CF01CFD007C2961 /* EverlinkIntergrationTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F5C35882CF01CFC007C2961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F5C35A12CF01CFD007C2961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F5C35AB2CF01CFD007C2961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F5C35862CF01CFC007C2961 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F5C359F2CF01CFD007C2961 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F5C35A92CF01CFD007C2961 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F5C35A52CF01CFD007C2961 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F5C35892CF01CFC007C2961 /* EverlinkIntergrationTest */;
+			targetProxy = 9F5C35A42CF01CFD007C2961 /* PBXContainerItemProxy */;
+		};
+		9F5C35AF2CF01CFD007C2961 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F5C35892CF01CFC007C2961 /* EverlinkIntergrationTest */;
+			targetProxy = 9F5C35AE2CF01CFD007C2961 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9F5C35B72CF01CFD007C2961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VHH8GSFQCS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EverlinkIntergrationTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.everlink.broadcast.EverlinkIntergrationTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F5C35B82CF01CFD007C2961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VHH8GSFQCS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EverlinkIntergrationTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.everlink.broadcast.EverlinkIntergrationTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9F5C35B92CF01CFD007C2961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F5C35BA2CF01CFD007C2961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F5C35BC2CF01CFD007C2961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VHH8GSFQCS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.everlink.broadcast.EverlinkIntergrationTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EverlinkIntergrationTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EverlinkIntergrationTest";
+			};
+			name = Debug;
+		};
+		9F5C35BD2CF01CFD007C2961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VHH8GSFQCS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.everlink.broadcast.EverlinkIntergrationTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EverlinkIntergrationTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EverlinkIntergrationTest";
+			};
+			name = Release;
+		};
+		9F5C35BF2CF01CFD007C2961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VHH8GSFQCS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.everlink.broadcast.EverlinkIntergrationTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EverlinkIntergrationTest;
+			};
+			name = Debug;
+		};
+		9F5C35C02CF01CFD007C2961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VHH8GSFQCS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.everlink.broadcast.EverlinkIntergrationTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EverlinkIntergrationTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F5C35852CF01CFC007C2961 /* Build configuration list for PBXProject "EverlinkIntergrationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F5C35B92CF01CFD007C2961 /* Debug */,
+				9F5C35BA2CF01CFD007C2961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F5C35B62CF01CFD007C2961 /* Build configuration list for PBXNativeTarget "EverlinkIntergrationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F5C35B72CF01CFD007C2961 /* Debug */,
+				9F5C35B82CF01CFD007C2961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F5C35BB2CF01CFD007C2961 /* Build configuration list for PBXNativeTarget "EverlinkIntergrationTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F5C35BC2CF01CFD007C2961 /* Debug */,
+				9F5C35BD2CF01CFD007C2961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F5C35BE2CF01CFD007C2961 /* Build configuration list for PBXNativeTarget "EverlinkIntergrationTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F5C35BF2CF01CFD007C2961 /* Debug */,
+				9F5C35C02CF01CFD007C2961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F5C35822CF01CFC007C2961 /* Project object */;
+}
