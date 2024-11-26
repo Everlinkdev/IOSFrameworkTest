@@ -5,359 +5,56 @@
     "printedName": "EverlinkBroadcastSDK",
     "children": [
       {
-        "kind": "TypeDecl",
-        "name": "TokenCheck",
-        "printedName": "TokenCheck",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "isTokenValid",
-            "printedName": "isTokenValid(tokenTimestamp:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int64",
-                "printedName": "Swift.Int64",
-                "usr": "s:s5Int64V"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:20EverlinkBroadcastSDK10TokenCheckC02isD5Valid14tokenTimestampSbs5Int64V_tF",
-            "mangledName": "$s20EverlinkBroadcastSDK10TokenCheckC02isD5Valid14tokenTimestampSbs5Int64V_tF",
-            "moduleName": "EverlinkBroadcastSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "isTokenExpired",
-            "printedName": "isTokenExpired(tokenTimestamp:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int64",
-                "printedName": "Swift.Int64",
-                "usr": "s:s5Int64V"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:20EverlinkBroadcastSDK10TokenCheckC02isD7Expired14tokenTimestampSbs5Int64V_tF",
-            "mangledName": "$s20EverlinkBroadcastSDK10TokenCheckC02isD7Expired14tokenTimestampSbs5Int64V_tF",
-            "moduleName": "EverlinkBroadcastSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:20EverlinkBroadcastSDK10TokenCheckC",
-        "mangledName": "$s20EverlinkBroadcastSDK10TokenCheckC",
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
         "moduleName": "EverlinkBroadcastSDK",
         "declAttributes": [
-          "AccessControl",
           "RawDocComment"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
         ]
       },
       {
-        "kind": "TypeDecl",
-        "name": "CreateToken",
-        "printedName": "CreateToken",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "generateToken",
-            "printedName": "generateToken()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:20EverlinkBroadcastSDK11CreateTokenC08generateE0yyF",
-            "mangledName": "$s20EverlinkBroadcastSDK11CreateTokenC08generateE0yyF",
-            "moduleName": "EverlinkBroadcastSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:20EverlinkBroadcastSDK11CreateTokenC",
-        "mangledName": "$s20EverlinkBroadcastSDK11CreateTokenC",
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
         "moduleName": "EverlinkBroadcastSDK",
         "declAttributes": [
-          "AccessControl",
           "RawDocComment"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "CallKit",
+        "printedName": "CallKit",
+        "declKind": "Import",
+        "moduleName": "EverlinkBroadcastSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MediaPlayer",
+        "printedName": "MediaPlayer",
+        "declKind": "Import",
+        "moduleName": "EverlinkBroadcastSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "EverlinkBroadcastSDK"
       },
       {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "EverlinkBroadcastSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "DeviceToken",
-        "printedName": "DeviceToken",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "setToken",
-            "printedName": "setToken(_token:_startDate:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:20EverlinkBroadcastSDK11DeviceTokenC03setE06_token10_startDateySS_SStF",
-            "mangledName": "$s20EverlinkBroadcastSDK11DeviceTokenC03setE06_token10_startDateySS_SStF",
-            "moduleName": "EverlinkBroadcastSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getToken",
-            "printedName": "getToken()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:20EverlinkBroadcastSDK11DeviceTokenC03getE0SSyF",
-            "mangledName": "$s20EverlinkBroadcastSDK11DeviceTokenC03getE0SSyF",
-            "moduleName": "EverlinkBroadcastSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getTokenTimestamp",
-            "printedName": "getTokenTimestamp()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:20EverlinkBroadcastSDK11DeviceTokenC03getE9TimestampSSyF",
-            "mangledName": "$s20EverlinkBroadcastSDK11DeviceTokenC03getE9TimestampSSyF",
-            "moduleName": "EverlinkBroadcastSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:20EverlinkBroadcastSDK11DeviceTokenC",
-        "mangledName": "$s20EverlinkBroadcastSDK11DeviceTokenC",
-        "moduleName": "EverlinkBroadcastSDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreAudio",
-        "printedName": "CoreAudio",
-        "declKind": "Import",
-        "moduleName": "EverlinkBroadcastSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "EverlinkBroadcastSDK"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "InternetCheck",
-        "printedName": "InternetCheck",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "pingHost",
-            "printedName": "pingHost(completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Bool) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:20EverlinkBroadcastSDK13InternetCheckC8pingHost10completionyySbc_tF",
-            "mangledName": "$s20EverlinkBroadcastSDK13InternetCheckC8pingHost10completionyySbc_tF",
-            "moduleName": "EverlinkBroadcastSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:20EverlinkBroadcastSDK13InternetCheckC",
-        "mangledName": "$s20EverlinkBroadcastSDK13InternetCheckC",
-        "moduleName": "EverlinkBroadcastSDK",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreAudio",
-        "printedName": "CoreAudio",
-        "declKind": "Import",
-        "moduleName": "EverlinkBroadcastSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
         "declKind": "Import",
         "moduleName": "EverlinkBroadcastSDK"
       },
@@ -474,35 +171,6 @@
         ]
       },
       {
-        "kind": "TypeDecl",
-        "name": "DefaultsObj",
-        "printedName": "DefaultsObj",
-        "declKind": "Struct",
-        "usr": "s:20EverlinkBroadcastSDK11DefaultsObjV",
-        "mangledName": "$s20EverlinkBroadcastSDK11DefaultsObjV",
-        "moduleName": "EverlinkBroadcastSDK",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
         "kind": "Import",
         "name": "Accelerate",
         "printedName": "Accelerate",
@@ -513,105 +181,6 @@
         ]
       },
       {
-        "kind": "TypeDecl",
-        "name": "MatchController",
-        "printedName": "MatchController",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "matchAudiocode",
-            "printedName": "matchAudiocode(completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.String?, (any Swift.Error)?) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Tuple",
-                    "printedName": "(Swift.String?, (any Swift.Error)?)",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "Swift.String?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "(any Swift.Error)?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Error",
-                            "printedName": "any Swift.Error",
-                            "usr": "s:s5ErrorP"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:20EverlinkBroadcastSDK15MatchControllerC14matchAudiocode10completionyySSSg_s5Error_pSgtc_tF",
-            "mangledName": "$s20EverlinkBroadcastSDK15MatchControllerC14matchAudiocode10completionyySSSg_s5Error_pSgtc_tF",
-            "moduleName": "EverlinkBroadcastSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:20EverlinkBroadcastSDK15MatchControllerC",
-        "mangledName": "$s20EverlinkBroadcastSDK15MatchControllerC",
-        "moduleName": "EverlinkBroadcastSDK",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
         "kind": "Import",
         "name": "AVFoundation",
         "printedName": "AVFoundation",
@@ -623,753 +192,8 @@
       },
       {
         "kind": "Import",
-        "name": "CommonCrypto",
-        "printedName": "CommonCrypto",
-        "declKind": "Import",
-        "moduleName": "EverlinkBroadcastSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "EverHash",
-        "printedName": "EverHash",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "EverHash",
-                "printedName": "EverlinkBroadcastSDK.EverHash",
-                "usr": "s:20EverlinkBroadcastSDK8EverHashC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:20EverlinkBroadcastSDK8EverHashCACycfc",
-            "mangledName": "$s20EverlinkBroadcastSDK8EverHashCACycfc",
-            "moduleName": "EverlinkBroadcastSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:20EverlinkBroadcastSDK8EverHashC",
-        "mangledName": "$s20EverlinkBroadcastSDK8EverHashC",
-        "moduleName": "EverlinkBroadcastSDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "EverlinkError",
-        "printedName": "EverlinkError",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "getError",
-            "printedName": "getError()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ErrObj",
-                "printedName": "EverlinkBroadcastSDK.ErrObj",
-                "usr": "s:20EverlinkBroadcastSDK6ErrObjV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:20EverlinkBroadcastSDK0A5ErrorC03getD0AA6ErrObjVyF",
-            "mangledName": "$s20EverlinkBroadcastSDK0A5ErrorC03getD0AA6ErrObjVyF",
-            "moduleName": "EverlinkBroadcastSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getErrorMessage",
-            "printedName": "getErrorMessage()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:20EverlinkBroadcastSDK0A5ErrorC03getD7MessageSSyF",
-            "mangledName": "$s20EverlinkBroadcastSDK0A5ErrorC03getD7MessageSSyF",
-            "moduleName": "EverlinkBroadcastSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getErrorCode",
-            "printedName": "getErrorCode()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:20EverlinkBroadcastSDK0A5ErrorC03getD4CodeSiyF",
-            "mangledName": "$s20EverlinkBroadcastSDK0A5ErrorC03getD4CodeSiyF",
-            "moduleName": "EverlinkBroadcastSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:20EverlinkBroadcastSDK0A5ErrorC",
-        "mangledName": "$s20EverlinkBroadcastSDK0A5ErrorC",
-        "moduleName": "EverlinkBroadcastSDK",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "NewAudiocode",
-        "printedName": "NewAudiocode",
-        "declKind": "Class",
-        "usr": "s:20EverlinkBroadcastSDK12NewAudiocodeC",
-        "mangledName": "$s20EverlinkBroadcastSDK12NewAudiocodeC",
-        "moduleName": "EverlinkBroadcastSDK",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "EverlinkBroadcastSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ErrorCodes",
-        "printedName": "ErrorCodes",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "getError",
-            "printedName": "getError()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ErrObj",
-                "printedName": "EverlinkBroadcastSDK.ErrObj",
-                "usr": "s:20EverlinkBroadcastSDK6ErrObjV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:20EverlinkBroadcastSDK10ErrorCodesC03getD0AA6ErrObjVyF",
-            "mangledName": "$s20EverlinkBroadcastSDK10ErrorCodesC03getD0AA6ErrObjVyF",
-            "moduleName": "EverlinkBroadcastSDK",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:20EverlinkBroadcastSDK10ErrorCodesC",
-        "mangledName": "$s20EverlinkBroadcastSDK10ErrorCodesC",
-        "moduleName": "EverlinkBroadcastSDK",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "EverlinkBroadcastSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Everlink",
-        "printedName": "Everlink",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "delegate",
-            "printedName": "delegate",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any EverlinkBroadcastSDK.EverlinkEventDelegate)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EverlinkEventDelegate",
-                    "printedName": "any EverlinkBroadcastSDK.EverlinkEventDelegate",
-                    "usr": "c:@M@EverlinkBroadcastSDK@objc(pl)EverlinkEventDelegate"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:20EverlinkBroadcastSDK0A0C8delegateAA0A13EventDelegate_pSgvp",
-            "mangledName": "$s20EverlinkBroadcastSDK0A0C8delegateAA0A13EventDelegate_pSgvp",
-            "moduleName": "EverlinkBroadcastSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any EverlinkBroadcastSDK.EverlinkEventDelegate)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EverlinkEventDelegate",
-                        "printedName": "any EverlinkBroadcastSDK.EverlinkEventDelegate",
-                        "usr": "c:@M@EverlinkBroadcastSDK@objc(pl)EverlinkEventDelegate"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:20EverlinkBroadcastSDK0A0C8delegateAA0A13EventDelegate_pSgvg",
-                "mangledName": "$s20EverlinkBroadcastSDK0A0C8delegateAA0A13EventDelegate_pSgvg",
-                "moduleName": "EverlinkBroadcastSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any EverlinkBroadcastSDK.EverlinkEventDelegate)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EverlinkEventDelegate",
-                        "printedName": "any EverlinkBroadcastSDK.EverlinkEventDelegate",
-                        "usr": "c:@M@EverlinkBroadcastSDK@objc(pl)EverlinkEventDelegate"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:20EverlinkBroadcastSDK0A0C8delegateAA0A13EventDelegate_pSgvs",
-                "mangledName": "$s20EverlinkBroadcastSDK0A0C8delegateAA0A13EventDelegate_pSgvs",
-                "moduleName": "EverlinkBroadcastSDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:20EverlinkBroadcastSDK0A0C8delegateAA0A13EventDelegate_pSgvM",
-                "mangledName": "$s20EverlinkBroadcastSDK0A0C8delegateAA0A13EventDelegate_pSgvM",
-                "moduleName": "EverlinkBroadcastSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(appID:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Everlink",
-                "printedName": "EverlinkBroadcastSDK.Everlink",
-                "usr": "c:@M@EverlinkBroadcastSDK@objc(cs)Everlink"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@EverlinkBroadcastSDK@objc(cs)Everlink(im)initWithAppID:",
-            "mangledName": "$s20EverlinkBroadcastSDK0A0C5appIDACSS_tcfc",
-            "moduleName": "EverlinkBroadcastSDK",
-            "objc_name": "initWithAppID:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "createNewToken",
-            "printedName": "createNewToken(startDate:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@EverlinkBroadcastSDK@objc(cs)Everlink(im)createNewTokenWithStartDate:",
-            "mangledName": "$s20EverlinkBroadcastSDK0A0C14createNewToken9startDateySS_tF",
-            "moduleName": "EverlinkBroadcastSDK",
-            "objc_name": "createNewTokenWithStartDate:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "startDetecting",
-            "printedName": "startDetecting()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@EverlinkBroadcastSDK@objc(cs)Everlink(im)startDetectingAndReturnError:",
-            "mangledName": "$s20EverlinkBroadcastSDK0A0C14startDetectingyyKF",
-            "moduleName": "EverlinkBroadcastSDK",
-            "objc_name": "startDetectingAndReturnError:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "stopDetecting",
-            "printedName": "stopDetecting()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@EverlinkBroadcastSDK@objc(cs)Everlink(im)stopDetecting",
-            "mangledName": "$s20EverlinkBroadcastSDK0A0C13stopDetectingyyF",
-            "moduleName": "EverlinkBroadcastSDK",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "saveSounds",
-            "printedName": "saveSounds(tokensArray:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@EverlinkBroadcastSDK@objc(cs)Everlink(im)saveSoundsWithTokensArray:",
-            "mangledName": "$s20EverlinkBroadcastSDK0A0C10saveSounds11tokensArrayySaySSG_tF",
-            "moduleName": "EverlinkBroadcastSDK",
-            "objc_name": "saveSoundsWithTokensArray:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "clearSounds",
-            "printedName": "clearSounds()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@EverlinkBroadcastSDK@objc(cs)Everlink(im)clearSounds",
-            "mangledName": "$s20EverlinkBroadcastSDK0A0C11clearSoundsyyF",
-            "moduleName": "EverlinkBroadcastSDK",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "startEmitting",
-            "printedName": "startEmitting()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@EverlinkBroadcastSDK@objc(cs)Everlink(im)startEmittingAndReturnError:",
-            "mangledName": "$s20EverlinkBroadcastSDK0A0C13startEmittingyyKF",
-            "moduleName": "EverlinkBroadcastSDK",
-            "objc_name": "startEmittingAndReturnError:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "startEmittingToken",
-            "printedName": "startEmittingToken(token:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@EverlinkBroadcastSDK@objc(cs)Everlink(im)startEmittingTokenWithToken:error:",
-            "mangledName": "$s20EverlinkBroadcastSDK0A0C18startEmittingToken5tokenySS_tKF",
-            "moduleName": "EverlinkBroadcastSDK",
-            "objc_name": "startEmittingTokenWithToken:error:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "stopEmitting",
-            "printedName": "stopEmitting()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@EverlinkBroadcastSDK@objc(cs)Everlink(im)stopEmitting",
-            "mangledName": "$s20EverlinkBroadcastSDK0A0C12stopEmittingyyF",
-            "moduleName": "EverlinkBroadcastSDK",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "playVolume",
-            "printedName": "playVolume(volume:loudspeaker:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Float",
-                "printedName": "Swift.Float",
-                "usr": "s:Sf"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@EverlinkBroadcastSDK@objc(cs)Everlink(im)playVolumeWithVolume:loudspeaker:",
-            "mangledName": "$s20EverlinkBroadcastSDK0A0C10playVolume6volume11loudspeakerySf_SbtF",
-            "moduleName": "EverlinkBroadcastSDK",
-            "objc_name": "playVolumeWithVolume:loudspeaker:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Everlink",
-                "printedName": "EverlinkBroadcastSDK.Everlink",
-                "usr": "c:@M@EverlinkBroadcastSDK@objc(cs)Everlink"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@EverlinkBroadcastSDK@objc(cs)Everlink(im)init",
-            "mangledName": "$s20EverlinkBroadcastSDK0A0CACycfc",
-            "moduleName": "EverlinkBroadcastSDK",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@EverlinkBroadcastSDK@objc(cs)Everlink",
-        "mangledName": "$s20EverlinkBroadcastSDK0A0C",
-        "moduleName": "EverlinkBroadcastSDK",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CallKit",
-        "printedName": "CallKit",
+        "name": "CoreAudio",
+        "printedName": "CoreAudio",
         "declKind": "Import",
         "moduleName": "EverlinkBroadcastSDK",
         "declAttributes": [
@@ -1380,303 +204,25 @@
         "kind": "Import",
         "name": "AVFoundation",
         "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "EverlinkBroadcastSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "MediaPlayer",
-        "printedName": "MediaPlayer",
-        "declKind": "Import",
-        "moduleName": "EverlinkBroadcastSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AVKit",
-        "printedName": "AVKit",
         "declKind": "Import",
         "moduleName": "EverlinkBroadcastSDK"
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "CoreAudio",
+        "printedName": "CoreAudio",
+        "declKind": "Import",
+        "moduleName": "EverlinkBroadcastSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
         "declKind": "Import",
         "moduleName": "EverlinkBroadcastSDK"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "NetworkCall",
-        "printedName": "NetworkCall",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "performPostCall",
-            "printedName": "performPostCall(completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Foundation.Data?, (any Swift.Error)?) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Tuple",
-                    "printedName": "(Foundation.Data?, (any Swift.Error)?)",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "Foundation.Data?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Data",
-                            "printedName": "Foundation.Data",
-                            "usr": "s:10Foundation4DataV"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "(any Swift.Error)?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Error",
-                            "printedName": "any Swift.Error",
-                            "usr": "s:s5ErrorP"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:20EverlinkBroadcastSDK11NetworkCallC011performPostE010completionyy10Foundation4DataVSg_s5Error_pSgtc_tF",
-            "mangledName": "$s20EverlinkBroadcastSDK11NetworkCallC011performPostE010completionyy10Foundation4DataVSg_s5Error_pSgtc_tF",
-            "moduleName": "EverlinkBroadcastSDK",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:20EverlinkBroadcastSDK11NetworkCallC",
-        "mangledName": "$s20EverlinkBroadcastSDK11NetworkCallC",
-        "moduleName": "EverlinkBroadcastSDK",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "LocalTokensArray",
-        "printedName": "LocalTokensArray",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "saveTokenAndSounds",
-            "printedName": "saveTokenAndSounds(_tokensArray:appID:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sa"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Bool?, (any Swift.Error)?) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Tuple",
-                    "printedName": "(Swift.Bool?, (any Swift.Error)?)",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "Swift.Bool?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Bool",
-                            "printedName": "Swift.Bool",
-                            "usr": "s:Sb"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "(any Swift.Error)?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Error",
-                            "printedName": "any Swift.Error",
-                            "usr": "s:s5ErrorP"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:20EverlinkBroadcastSDK16LocalTokensArrayC18saveTokenAndSounds07_tokensF05appID10completionySaySSG_SSySbSg_s5Error_pSgtctF",
-            "mangledName": "$s20EverlinkBroadcastSDK16LocalTokensArrayC18saveTokenAndSounds07_tokensF05appID10completionySaySSG_SSySbSg_s5Error_pSgtctF",
-            "moduleName": "EverlinkBroadcastSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getArray",
-            "printedName": "getArray()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[EverlinkBroadcastSDK.DefaultsObj]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DefaultsObj",
-                    "printedName": "EverlinkBroadcastSDK.DefaultsObj",
-                    "usr": "s:20EverlinkBroadcastSDK11DefaultsObjV"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:20EverlinkBroadcastSDK16LocalTokensArrayC03getF0SayAA11DefaultsObjVGyF",
-            "mangledName": "$s20EverlinkBroadcastSDK16LocalTokensArrayC03getF0SayAA11DefaultsObjVGyF",
-            "moduleName": "EverlinkBroadcastSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "clearSavedArray",
-            "printedName": "clearSavedArray()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:20EverlinkBroadcastSDK16LocalTokensArrayC010clearSavedF0yyF",
-            "mangledName": "$s20EverlinkBroadcastSDK16LocalTokensArrayC010clearSavedF0yyF",
-            "moduleName": "EverlinkBroadcastSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:20EverlinkBroadcastSDK16LocalTokensArrayC",
-        "mangledName": "$s20EverlinkBroadcastSDK16LocalTokensArrayC",
-        "moduleName": "EverlinkBroadcastSDK",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
       },
       {
         "kind": "TypeDecl",
@@ -2256,6 +802,895 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "ErrorCodes",
+        "printedName": "ErrorCodes",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getError",
+            "printedName": "getError()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ErrObj",
+                "printedName": "EverlinkBroadcastSDK.ErrObj",
+                "usr": "s:20EverlinkBroadcastSDK6ErrObjV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20EverlinkBroadcastSDK10ErrorCodesC03getD0AA6ErrObjVyF",
+            "mangledName": "$s20EverlinkBroadcastSDK10ErrorCodesC03getD0AA6ErrObjVyF",
+            "moduleName": "EverlinkBroadcastSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20EverlinkBroadcastSDK10ErrorCodesC",
+        "mangledName": "$s20EverlinkBroadcastSDK10ErrorCodesC",
+        "moduleName": "EverlinkBroadcastSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EverlinkError",
+        "printedName": "EverlinkError",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getError",
+            "printedName": "getError()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ErrObj",
+                "printedName": "EverlinkBroadcastSDK.ErrObj",
+                "usr": "s:20EverlinkBroadcastSDK6ErrObjV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20EverlinkBroadcastSDK0A5ErrorC03getD0AA6ErrObjVyF",
+            "mangledName": "$s20EverlinkBroadcastSDK0A5ErrorC03getD0AA6ErrObjVyF",
+            "moduleName": "EverlinkBroadcastSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getErrorMessage",
+            "printedName": "getErrorMessage()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20EverlinkBroadcastSDK0A5ErrorC03getD7MessageSSyF",
+            "mangledName": "$s20EverlinkBroadcastSDK0A5ErrorC03getD7MessageSSyF",
+            "moduleName": "EverlinkBroadcastSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getErrorCode",
+            "printedName": "getErrorCode()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20EverlinkBroadcastSDK0A5ErrorC03getD4CodeSiyF",
+            "mangledName": "$s20EverlinkBroadcastSDK0A5ErrorC03getD4CodeSiyF",
+            "moduleName": "EverlinkBroadcastSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20EverlinkBroadcastSDK0A5ErrorC",
+        "mangledName": "$s20EverlinkBroadcastSDK0A5ErrorC",
+        "moduleName": "EverlinkBroadcastSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MatchController",
+        "printedName": "MatchController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "matchAudiocode",
+            "printedName": "matchAudiocode(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20EverlinkBroadcastSDK15MatchControllerC14matchAudiocode10completionyySSSg_s5Error_pSgtc_tF",
+            "mangledName": "$s20EverlinkBroadcastSDK15MatchControllerC14matchAudiocode10completionyySSSg_s5Error_pSgtc_tF",
+            "moduleName": "EverlinkBroadcastSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20EverlinkBroadcastSDK15MatchControllerC",
+        "mangledName": "$s20EverlinkBroadcastSDK15MatchControllerC",
+        "moduleName": "EverlinkBroadcastSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkCall",
+        "printedName": "NetworkCall",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "performPostCall",
+            "printedName": "performPostCall(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.Data?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.Data?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.Data?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Data",
+                            "printedName": "Foundation.Data",
+                            "usr": "s:10Foundation4DataV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20EverlinkBroadcastSDK11NetworkCallC011performPostE010completionyy10Foundation4DataVSg_s5Error_pSgtc_tF",
+            "mangledName": "$s20EverlinkBroadcastSDK11NetworkCallC011performPostE010completionyy10Foundation4DataVSg_s5Error_pSgtc_tF",
+            "moduleName": "EverlinkBroadcastSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20EverlinkBroadcastSDK11NetworkCallC",
+        "mangledName": "$s20EverlinkBroadcastSDK11NetworkCallC",
+        "moduleName": "EverlinkBroadcastSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "EverlinkBroadcastSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EverHash",
+        "printedName": "EverHash",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EverHash",
+                "printedName": "EverlinkBroadcastSDK.EverHash",
+                "usr": "s:20EverlinkBroadcastSDK8EverHashC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20EverlinkBroadcastSDK8EverHashCACycfc",
+            "mangledName": "$s20EverlinkBroadcastSDK8EverHashCACycfc",
+            "moduleName": "EverlinkBroadcastSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20EverlinkBroadcastSDK8EverHashC",
+        "mangledName": "$s20EverlinkBroadcastSDK8EverHashC",
+        "moduleName": "EverlinkBroadcastSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NewAudiocode",
+        "printedName": "NewAudiocode",
+        "declKind": "Class",
+        "usr": "s:20EverlinkBroadcastSDK12NewAudiocodeC",
+        "mangledName": "$s20EverlinkBroadcastSDK12NewAudiocodeC",
+        "moduleName": "EverlinkBroadcastSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LocalTokensArray",
+        "printedName": "LocalTokensArray",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "saveTokenAndSounds",
+            "printedName": "saveTokenAndSounds(_tokensArray:appID:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Bool?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20EverlinkBroadcastSDK16LocalTokensArrayC18saveTokenAndSounds07_tokensF05appID10completionySaySSG_SSySbSg_s5Error_pSgtctF",
+            "mangledName": "$s20EverlinkBroadcastSDK16LocalTokensArrayC18saveTokenAndSounds07_tokensF05appID10completionySaySSG_SSySbSg_s5Error_pSgtctF",
+            "moduleName": "EverlinkBroadcastSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getArray",
+            "printedName": "getArray()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[EverlinkBroadcastSDK.DefaultsObj]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultsObj",
+                    "printedName": "EverlinkBroadcastSDK.DefaultsObj",
+                    "usr": "s:20EverlinkBroadcastSDK11DefaultsObjV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20EverlinkBroadcastSDK16LocalTokensArrayC03getF0SayAA11DefaultsObjVGyF",
+            "mangledName": "$s20EverlinkBroadcastSDK16LocalTokensArrayC03getF0SayAA11DefaultsObjVGyF",
+            "moduleName": "EverlinkBroadcastSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearSavedArray",
+            "printedName": "clearSavedArray()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20EverlinkBroadcastSDK16LocalTokensArrayC010clearSavedF0yyF",
+            "mangledName": "$s20EverlinkBroadcastSDK16LocalTokensArrayC010clearSavedF0yyF",
+            "moduleName": "EverlinkBroadcastSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20EverlinkBroadcastSDK16LocalTokensArrayC",
+        "mangledName": "$s20EverlinkBroadcastSDK16LocalTokensArrayC",
+        "moduleName": "EverlinkBroadcastSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CreateToken",
+        "printedName": "CreateToken",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "generateToken",
+            "printedName": "generateToken()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20EverlinkBroadcastSDK11CreateTokenC08generateE0yyF",
+            "mangledName": "$s20EverlinkBroadcastSDK11CreateTokenC08generateE0yyF",
+            "moduleName": "EverlinkBroadcastSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20EverlinkBroadcastSDK11CreateTokenC",
+        "mangledName": "$s20EverlinkBroadcastSDK11CreateTokenC",
+        "moduleName": "EverlinkBroadcastSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EverlinkBroadcastSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeviceToken",
+        "printedName": "DeviceToken",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setToken",
+            "printedName": "setToken(_token:_startDate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20EverlinkBroadcastSDK11DeviceTokenC03setE06_token10_startDateySS_SStF",
+            "mangledName": "$s20EverlinkBroadcastSDK11DeviceTokenC03setE06_token10_startDateySS_SStF",
+            "moduleName": "EverlinkBroadcastSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getToken",
+            "printedName": "getToken()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20EverlinkBroadcastSDK11DeviceTokenC03getE0SSyF",
+            "mangledName": "$s20EverlinkBroadcastSDK11DeviceTokenC03getE0SSyF",
+            "moduleName": "EverlinkBroadcastSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getTokenTimestamp",
+            "printedName": "getTokenTimestamp()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20EverlinkBroadcastSDK11DeviceTokenC03getE9TimestampSSyF",
+            "mangledName": "$s20EverlinkBroadcastSDK11DeviceTokenC03getE9TimestampSSyF",
+            "moduleName": "EverlinkBroadcastSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20EverlinkBroadcastSDK11DeviceTokenC",
+        "mangledName": "$s20EverlinkBroadcastSDK11DeviceTokenC",
+        "moduleName": "EverlinkBroadcastSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TokenCheck",
+        "printedName": "TokenCheck",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "isTokenValid",
+            "printedName": "isTokenValid(tokenTimestamp:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20EverlinkBroadcastSDK10TokenCheckC02isD5Valid14tokenTimestampSbs5Int64V_tF",
+            "mangledName": "$s20EverlinkBroadcastSDK10TokenCheckC02isD5Valid14tokenTimestampSbs5Int64V_tF",
+            "moduleName": "EverlinkBroadcastSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isTokenExpired",
+            "printedName": "isTokenExpired(tokenTimestamp:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20EverlinkBroadcastSDK10TokenCheckC02isD7Expired14tokenTimestampSbs5Int64V_tF",
+            "mangledName": "$s20EverlinkBroadcastSDK10TokenCheckC02isD7Expired14tokenTimestampSbs5Int64V_tF",
+            "moduleName": "EverlinkBroadcastSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20EverlinkBroadcastSDK10TokenCheckC",
+        "mangledName": "$s20EverlinkBroadcastSDK10TokenCheckC",
+        "moduleName": "EverlinkBroadcastSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DefaultsObj",
+        "printedName": "DefaultsObj",
+        "declKind": "Struct",
+        "usr": "s:20EverlinkBroadcastSDK11DefaultsObjV",
+        "mangledName": "$s20EverlinkBroadcastSDK11DefaultsObjV",
+        "moduleName": "EverlinkBroadcastSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "Doppler",
         "printedName": "Doppler",
         "children": [
@@ -2450,752 +1885,1317 @@
             "mangledName": "$ss9EscapableP"
           }
         ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InternetCheck",
+        "printedName": "InternetCheck",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "pingHost",
+            "printedName": "pingHost(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20EverlinkBroadcastSDK13InternetCheckC8pingHost10completionyySbc_tF",
+            "mangledName": "$s20EverlinkBroadcastSDK13InternetCheckC8pingHost10completionyySbc_tF",
+            "moduleName": "EverlinkBroadcastSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20EverlinkBroadcastSDK13InternetCheckC",
+        "mangledName": "$s20EverlinkBroadcastSDK13InternetCheckC",
+        "moduleName": "EverlinkBroadcastSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EverlinkBroadcastSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Everlink",
+        "printedName": "Everlink",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any EverlinkBroadcastSDK.EverlinkEventDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EverlinkEventDelegate",
+                    "printedName": "any EverlinkBroadcastSDK.EverlinkEventDelegate",
+                    "usr": "c:@M@EverlinkBroadcastSDK@objc(pl)EverlinkEventDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20EverlinkBroadcastSDK0A0C8delegateAA0A13EventDelegate_pSgvp",
+            "mangledName": "$s20EverlinkBroadcastSDK0A0C8delegateAA0A13EventDelegate_pSgvp",
+            "moduleName": "EverlinkBroadcastSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any EverlinkBroadcastSDK.EverlinkEventDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EverlinkEventDelegate",
+                        "printedName": "any EverlinkBroadcastSDK.EverlinkEventDelegate",
+                        "usr": "c:@M@EverlinkBroadcastSDK@objc(pl)EverlinkEventDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20EverlinkBroadcastSDK0A0C8delegateAA0A13EventDelegate_pSgvg",
+                "mangledName": "$s20EverlinkBroadcastSDK0A0C8delegateAA0A13EventDelegate_pSgvg",
+                "moduleName": "EverlinkBroadcastSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any EverlinkBroadcastSDK.EverlinkEventDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EverlinkEventDelegate",
+                        "printedName": "any EverlinkBroadcastSDK.EverlinkEventDelegate",
+                        "usr": "c:@M@EverlinkBroadcastSDK@objc(pl)EverlinkEventDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20EverlinkBroadcastSDK0A0C8delegateAA0A13EventDelegate_pSgvs",
+                "mangledName": "$s20EverlinkBroadcastSDK0A0C8delegateAA0A13EventDelegate_pSgvs",
+                "moduleName": "EverlinkBroadcastSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20EverlinkBroadcastSDK0A0C8delegateAA0A13EventDelegate_pSgvM",
+                "mangledName": "$s20EverlinkBroadcastSDK0A0C8delegateAA0A13EventDelegate_pSgvM",
+                "moduleName": "EverlinkBroadcastSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(appID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Everlink",
+                "printedName": "EverlinkBroadcastSDK.Everlink",
+                "usr": "c:@M@EverlinkBroadcastSDK@objc(cs)Everlink"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@EverlinkBroadcastSDK@objc(cs)Everlink(im)initWithAppID:",
+            "mangledName": "$s20EverlinkBroadcastSDK0A0C5appIDACSS_tcfc",
+            "moduleName": "EverlinkBroadcastSDK",
+            "objc_name": "initWithAppID:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "createNewToken",
+            "printedName": "createNewToken(startDate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@EverlinkBroadcastSDK@objc(cs)Everlink(im)createNewTokenWithStartDate:",
+            "mangledName": "$s20EverlinkBroadcastSDK0A0C14createNewToken9startDateySS_tF",
+            "moduleName": "EverlinkBroadcastSDK",
+            "objc_name": "createNewTokenWithStartDate:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startDetecting",
+            "printedName": "startDetecting()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@EverlinkBroadcastSDK@objc(cs)Everlink(im)startDetectingAndReturnError:",
+            "mangledName": "$s20EverlinkBroadcastSDK0A0C14startDetectingyyKF",
+            "moduleName": "EverlinkBroadcastSDK",
+            "objc_name": "startDetectingAndReturnError:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopDetecting",
+            "printedName": "stopDetecting()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@EverlinkBroadcastSDK@objc(cs)Everlink(im)stopDetecting",
+            "mangledName": "$s20EverlinkBroadcastSDK0A0C13stopDetectingyyF",
+            "moduleName": "EverlinkBroadcastSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "saveSounds",
+            "printedName": "saveSounds(tokensArray:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@EverlinkBroadcastSDK@objc(cs)Everlink(im)saveSoundsWithTokensArray:",
+            "mangledName": "$s20EverlinkBroadcastSDK0A0C10saveSounds11tokensArrayySaySSG_tF",
+            "moduleName": "EverlinkBroadcastSDK",
+            "objc_name": "saveSoundsWithTokensArray:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearSounds",
+            "printedName": "clearSounds()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@EverlinkBroadcastSDK@objc(cs)Everlink(im)clearSounds",
+            "mangledName": "$s20EverlinkBroadcastSDK0A0C11clearSoundsyyF",
+            "moduleName": "EverlinkBroadcastSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startEmitting",
+            "printedName": "startEmitting()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@EverlinkBroadcastSDK@objc(cs)Everlink(im)startEmittingAndReturnError:",
+            "mangledName": "$s20EverlinkBroadcastSDK0A0C13startEmittingyyKF",
+            "moduleName": "EverlinkBroadcastSDK",
+            "objc_name": "startEmittingAndReturnError:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startEmittingToken",
+            "printedName": "startEmittingToken(token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@EverlinkBroadcastSDK@objc(cs)Everlink(im)startEmittingTokenWithToken:error:",
+            "mangledName": "$s20EverlinkBroadcastSDK0A0C18startEmittingToken5tokenySS_tKF",
+            "moduleName": "EverlinkBroadcastSDK",
+            "objc_name": "startEmittingTokenWithToken:error:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopEmitting",
+            "printedName": "stopEmitting()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@EverlinkBroadcastSDK@objc(cs)Everlink(im)stopEmitting",
+            "mangledName": "$s20EverlinkBroadcastSDK0A0C12stopEmittingyyF",
+            "moduleName": "EverlinkBroadcastSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "playVolume",
+            "printedName": "playVolume(volume:loudspeaker:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@EverlinkBroadcastSDK@objc(cs)Everlink(im)playVolumeWithVolume:loudspeaker:",
+            "mangledName": "$s20EverlinkBroadcastSDK0A0C10playVolume6volume11loudspeakerySf_SbtF",
+            "moduleName": "EverlinkBroadcastSDK",
+            "objc_name": "playVolumeWithVolume:loudspeaker:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Everlink",
+                "printedName": "EverlinkBroadcastSDK.Everlink",
+                "usr": "c:@M@EverlinkBroadcastSDK@objc(cs)Everlink"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@EverlinkBroadcastSDK@objc(cs)Everlink(im)init",
+            "mangledName": "$s20EverlinkBroadcastSDK0A0CACycfc",
+            "moduleName": "EverlinkBroadcastSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@EverlinkBroadcastSDK@objc(cs)Everlink",
+        "mangledName": "$s20EverlinkBroadcastSDK0A0C",
+        "moduleName": "EverlinkBroadcastSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/detecting\/fft\/EverlinkDetection.swift",
-      "kind": "FloatLiteral",
-      "offset": 168,
-      "length": 7,
-      "value": "44100.0"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/detecting\/fft\/EverlinkDetection.swift",
-      "kind": "IntegerLiteral",
-      "offset": 200,
-      "length": 3,
-      "value": "479"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/detecting\/fft\/EverlinkDetection.swift",
-      "kind": "IntegerLiteral",
-      "offset": 229,
-      "length": 3,
-      "value": "450"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/detecting\/fft\/EverlinkDetection.swift",
-      "kind": "IntegerLiteral",
-      "offset": 259,
-      "length": 4,
-      "value": "1024"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/detecting\/fft\/EverlinkDetection.swift",
-      "kind": "IntegerLiteral",
-      "offset": 291,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/token\/CreateToken.swift",
-      "kind": "StringLiteral",
-      "offset": 173,
-      "length": 7,
-      "value": "\"t.php\""
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/token\/DeviceToken.swift",
-      "kind": "StringLiteral",
-      "offset": 198,
-      "length": 21,
-      "value": "\"EverLinkAccessToken\""
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/token\/DeviceToken.swift",
-      "kind": "StringLiteral",
-      "offset": 266,
-      "length": 25,
-      "value": "\"EverLinkAccessTokenTime\""
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/emitting\/PlaySound.swift",
-      "kind": "IntegerLiteral",
-      "offset": 261,
-      "length": 5,
-      "value": "44100"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/emitting\/PlaySound.swift",
-      "kind": "IntegerLiteral",
-      "offset": 448,
-      "length": 5,
-      "value": "44100"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/emitting\/PlaySound.swift",
-      "kind": "IntegerLiteral",
-      "offset": 465,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/emitting\/PlaySound.swift",
-      "kind": "BooleanLiteral",
-      "offset": 481,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/emitting\/get-audiocode\/NewDownloadArray.swift",
-      "kind": "StringLiteral",
-      "offset": 156,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/emitting\/get-audiocode\/NewDownloadArray.swift",
-      "kind": "Array",
-      "offset": 196,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/detecting\/FrequenciesArray.swift",
-      "kind": "IntegerLiteral",
-      "offset": 220,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/detecting\/FrequenciesArray.swift",
-      "kind": "IntegerLiteral",
-      "offset": 255,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/detecting\/FrequenciesArray.swift",
-      "kind": "BooleanLiteral",
-      "offset": 292,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/detecting\/FrequenciesArray.swift",
-      "kind": "IntegerLiteral",
-      "offset": 326,
-      "length": 5,
-      "value": "19466"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/detecting\/FrequenciesArray.swift",
-      "kind": "IntegerLiteral",
-      "offset": 358,
-      "length": 5,
-      "value": "19552"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/detecting\/FrequenciesArray.swift",
-      "kind": "IntegerLiteral",
-      "offset": 401,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/emitting\/BuildAudiocode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 254,
-      "length": 5,
-      "value": "44100"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/emitting\/BuildAudiocode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 271,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/emitting\/BuildAudiocode.swift",
-      "kind": "BooleanLiteral",
-      "offset": 287,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/emitting\/BuildAudiocode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 331,
-      "length": 5,
-      "value": "44100"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/matching\/MatchAudiocodeLocally.swift",
-      "kind": "BooleanLiteral",
-      "offset": 179,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/matching\/MatchAudiocodeLocally.swift",
-      "kind": "IntegerLiteral",
-      "offset": 222,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/config\/SoundProperties.swift",
-      "kind": "IntegerLiteral",
-      "offset": 188,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/config\/SoundProperties.swift",
-      "kind": "IntegerLiteral",
-      "offset": 239,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/config\/SoundProperties.swift",
-      "kind": "IntegerLiteral",
-      "offset": 354,
-      "length": 5,
-      "value": "44100"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/config\/SoundProperties.swift",
-      "kind": "IntegerLiteral",
-      "offset": 388,
-      "length": 5,
-      "value": "19466"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/config\/SoundProperties.swift",
-      "kind": "IntegerLiteral",
-      "offset": 420,
-      "length": 5,
-      "value": "19552"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/detecting\/fft\/PerformFFT.swift",
-      "kind": "FloatLiteral",
-      "offset": 318,
-      "length": 7,
-      "value": "44100.0"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/matching\/MatchController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 189,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/matching\/MatchController.swift",
-      "kind": "StringLiteral",
-      "offset": 222,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/matching\/MatchController.swift",
-      "kind": "StringLiteral",
-      "offset": 249,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/matching\/MatchController.swift",
-      "kind": "StringLiteral",
-      "offset": 276,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/matching\/MatchController.swift",
-      "kind": "StringLiteral",
-      "offset": 318,
-      "length": 8,
-      "value": "\"ma.php\""
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/matching\/MatchController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 362,
-      "length": 2,
-      "value": "83"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/audio\/settings\/EverlinkRecorder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 305,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/audio\/settings\/EverlinkRecorder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 342,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/audio\/settings\/EverlinkRecorder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 437,
-      "length": 5,
-      "value": "44100"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/audio\/settings\/EverlinkRecorder.swift",
-      "kind": "BooleanLiteral",
-      "offset": 473,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/audio\/settings\/EverlinkRecorder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5183,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/audio\/settings\/EverlinkRecorder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5397,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/audio\/settings\/EverlinkRecorder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5468,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/audio\/settings\/EverlinkRecorder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5502,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/audio\/settings\/EverlinkRecorder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6419,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/refreshing\/RefreshAudiocode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 161,
-      "length": 5,
-      "value": "60000"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/emitting\/Emitter.swift",
-      "kind": "StringLiteral",
-      "offset": 220,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/emitting\/Emitter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 264,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/emitting\/Emitter.swift",
-      "kind": "StringLiteral",
-      "offset": 346,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/emitting\/Emitter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 377,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/emitting\/Emitter.swift",
-      "kind": "Array",
-      "offset": 483,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/refreshing\/ReverseAudiocode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 161,
-      "length": 5,
-      "value": "60000"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/refreshing\/ReverseAudiocode.swift",
-      "kind": "Array",
-      "offset": 204,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 156,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
-      "kind": "StringLiteral",
-      "offset": 195,
-      "length": 23,
-      "value": "\"**** Everlink error: \""
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
-      "kind": "StringLiteral",
-      "offset": 352,
-      "length": 37,
-      "value": "\"Everlink class not set up correctly\""
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 437,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
-      "kind": "StringLiteral",
-      "offset": 465,
-      "length": 23,
-      "value": "\"Error with App ID key\""
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 534,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
-      "kind": "StringLiteral",
-      "offset": 562,
-      "length": 17,
-      "value": "\"Token not valid\""
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 626,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
-      "kind": "StringLiteral",
-      "offset": 654,
-      "length": 25,
-      "value": "\"Cannot create new token\""
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 727,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
-      "kind": "StringLiteral",
-      "offset": 755,
-      "length": 27,
-      "value": "\"Unable to start detecting\""
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 830,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
-      "kind": "StringLiteral",
-      "offset": 858,
-      "length": 27,
-      "value": "\"Token array download fail\""
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 938,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
-      "kind": "StringLiteral",
-      "offset": 966,
-      "length": 17,
-      "value": "\"Token not found\""
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1031,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
-      "kind": "StringLiteral",
-      "offset": 1059,
-      "length": 40,
-      "value": "\"SaveSounds requires an array of tokens\""
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1147,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
-      "kind": "StringLiteral",
-      "offset": 1175,
-      "length": 15,
-      "value": "\"Token expired\""
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1237,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
-      "kind": "StringLiteral",
-      "offset": 1265,
-      "length": 28,
-      "value": "\"Start valid date incorrect\""
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1340,
-      "length": 1,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
-      "kind": "StringLiteral",
-      "offset": 1368,
-      "length": 16,
-      "value": "\"Could not play\""
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1432,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
-      "kind": "StringLiteral",
-      "offset": 1461,
-      "length": 30,
-      "value": "\"Device media already playing\""
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1539,
-      "length": 2,
-      "value": "11"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
-      "kind": "StringLiteral",
-      "offset": 1568,
-      "length": 30,
-      "value": "\"Device telephone call active\""
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1643,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/Everlink.swift",
-      "kind": "BooleanLiteral",
-      "offset": 383,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/Everlink.swift",
-      "kind": "BooleanLiteral",
-      "offset": 424,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/Everlink.swift",
-      "kind": "IntegerLiteral",
-      "offset": 471,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/Everlink.swift",
-      "kind": "IntegerLiteral",
-      "offset": 517,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/Everlink.swift",
-      "kind": "BooleanLiteral",
-      "offset": 554,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/audio\/settings\/EverlinkAudioSession.swift",
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/audio\/settings\/EverlinkAudioSession.swift",
       "kind": "IntegerLiteral",
       "offset": 279,
       "length": 5,
       "value": "44100"
     },
     {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/audio\/settings\/EverlinkAudioSession.swift",
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/audio\/settings\/EverlinkAudioSession.swift",
       "kind": "IntegerLiteral",
       "offset": 320,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/emitting\/get-audiocode\/GetAudiocodeLocally.swift",
-      "kind": "StringLiteral",
-      "offset": 183,
-      "length": 2,
-      "value": "\"\""
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/audio\/settings\/EverlinkRecorder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 305,
+      "length": 1,
+      "value": "0"
     },
     {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/audio\/VolumeControl.swift",
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/audio\/settings\/EverlinkRecorder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 342,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/audio\/settings\/EverlinkRecorder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 437,
+      "length": 5,
+      "value": "44100"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/audio\/settings\/EverlinkRecorder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 473,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/audio\/settings\/EverlinkRecorder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5183,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/audio\/settings\/EverlinkRecorder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5397,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/audio\/settings\/EverlinkRecorder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5468,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/audio\/settings\/EverlinkRecorder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5502,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/audio\/settings\/EverlinkRecorder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6419,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/audio\/VolumeControl.swift",
       "kind": "StringLiteral",
       "offset": 246,
       "length": 18,
       "value": "\"EverlinkOGVolume\""
     },
     {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/audio\/VolumeControl.swift",
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/audio\/VolumeControl.swift",
       "kind": "FloatLiteral",
       "offset": 300,
       "length": 3,
       "value": "0.8"
     },
     {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/audio\/VolumeControl.swift",
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/audio\/VolumeControl.swift",
       "kind": "BooleanLiteral",
       "offset": 333,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/audio\/VolumeControl.swift",
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/audio\/VolumeControl.swift",
       "kind": "IntegerLiteral",
       "offset": 385,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/audio\/VolumeControl.swift",
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/audio\/VolumeControl.swift",
       "kind": "IntegerLiteral",
       "offset": 391,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/audio\/VolumeControl.swift",
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/audio\/VolumeControl.swift",
       "kind": "IntegerLiteral",
       "offset": 401,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/audio\/VolumeControl.swift",
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/audio\/VolumeControl.swift",
       "kind": "IntegerLiteral",
       "offset": 412,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/network\/NetworkCall.swift",
-      "kind": "StringLiteral",
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/config\/SoundProperties.swift",
+      "kind": "IntegerLiteral",
       "offset": 188,
-      "length": 2,
-      "value": "\"\""
+      "length": 1,
+      "value": "7"
     },
     {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/network\/NetworkCall.swift",
-      "kind": "StringLiteral",
-      "offset": 219,
-      "length": 2,
-      "value": "\"\""
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/config\/SoundProperties.swift",
+      "kind": "IntegerLiteral",
+      "offset": 239,
+      "length": 1,
+      "value": "2"
     },
     {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/detecting\/AudioCodeExtraction.swift",
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/config\/SoundProperties.swift",
+      "kind": "IntegerLiteral",
+      "offset": 354,
+      "length": 5,
+      "value": "44100"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/config\/SoundProperties.swift",
+      "kind": "IntegerLiteral",
+      "offset": 388,
+      "length": 5,
+      "value": "19466"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/config\/SoundProperties.swift",
+      "kind": "IntegerLiteral",
+      "offset": 420,
+      "length": 5,
+      "value": "19552"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/detecting\/fft\/EverlinkDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 168,
+      "length": 7,
+      "value": "44100.0"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/detecting\/fft\/EverlinkDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 200,
+      "length": 3,
+      "value": "479"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/detecting\/fft\/EverlinkDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 229,
+      "length": 3,
+      "value": "450"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/detecting\/fft\/EverlinkDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 259,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/detecting\/fft\/EverlinkDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 291,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/detecting\/fft\/PerformFFT.swift",
+      "kind": "FloatLiteral",
+      "offset": 318,
+      "length": 7,
+      "value": "44100.0"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/detecting\/AudioCodeExtraction.swift",
       "kind": "IntegerLiteral",
       "offset": 165,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/detecting\/AudioCodeExtraction.swift",
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/detecting\/AudioCodeExtraction.swift",
       "kind": "IntegerLiteral",
       "offset": 2279,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/token\/localArray\/LocalTokensArray.swift",
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/detecting\/FrequenciesArray.swift",
+      "kind": "IntegerLiteral",
+      "offset": 220,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/detecting\/FrequenciesArray.swift",
+      "kind": "IntegerLiteral",
+      "offset": 255,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/detecting\/FrequenciesArray.swift",
+      "kind": "BooleanLiteral",
+      "offset": 292,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/detecting\/FrequenciesArray.swift",
+      "kind": "IntegerLiteral",
+      "offset": 326,
+      "length": 5,
+      "value": "19466"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/detecting\/FrequenciesArray.swift",
+      "kind": "IntegerLiteral",
+      "offset": 358,
+      "length": 5,
+      "value": "19552"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/detecting\/FrequenciesArray.swift",
+      "kind": "IntegerLiteral",
+      "offset": 401,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/emitting\/get-audiocode\/GetAudiocodeLocally.swift",
+      "kind": "StringLiteral",
+      "offset": 183,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/emitting\/get-audiocode\/NewDownloadArray.swift",
+      "kind": "StringLiteral",
+      "offset": 156,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/emitting\/get-audiocode\/NewDownloadArray.swift",
+      "kind": "Array",
+      "offset": 196,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/emitting\/BuildAudiocode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 254,
+      "length": 5,
+      "value": "44100"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/emitting\/BuildAudiocode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 271,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/emitting\/BuildAudiocode.swift",
+      "kind": "BooleanLiteral",
+      "offset": 287,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/emitting\/BuildAudiocode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 331,
+      "length": 5,
+      "value": "44100"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/emitting\/Emitter.swift",
+      "kind": "StringLiteral",
+      "offset": 220,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/emitting\/Emitter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 264,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/emitting\/Emitter.swift",
+      "kind": "StringLiteral",
+      "offset": 346,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/emitting\/Emitter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 377,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/emitting\/Emitter.swift",
+      "kind": "Array",
+      "offset": 483,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/emitting\/PlaySound.swift",
+      "kind": "IntegerLiteral",
+      "offset": 261,
+      "length": 5,
+      "value": "44100"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/emitting\/PlaySound.swift",
+      "kind": "IntegerLiteral",
+      "offset": 448,
+      "length": 5,
+      "value": "44100"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/emitting\/PlaySound.swift",
+      "kind": "IntegerLiteral",
+      "offset": 465,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/emitting\/PlaySound.swift",
+      "kind": "BooleanLiteral",
+      "offset": 481,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 156,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
+      "kind": "StringLiteral",
+      "offset": 195,
+      "length": 23,
+      "value": "\"**** Everlink error: \""
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
+      "kind": "StringLiteral",
+      "offset": 352,
+      "length": 37,
+      "value": "\"Everlink class not set up correctly\""
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 437,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
+      "kind": "StringLiteral",
+      "offset": 465,
+      "length": 23,
+      "value": "\"Error with App ID key\""
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 534,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
+      "kind": "StringLiteral",
+      "offset": 562,
+      "length": 17,
+      "value": "\"Token not valid\""
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 626,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
+      "kind": "StringLiteral",
+      "offset": 654,
+      "length": 25,
+      "value": "\"Cannot create new token\""
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 727,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
+      "kind": "StringLiteral",
+      "offset": 755,
+      "length": 27,
+      "value": "\"Unable to start detecting\""
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 830,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
+      "kind": "StringLiteral",
+      "offset": 858,
+      "length": 27,
+      "value": "\"Token array download fail\""
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 938,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
+      "kind": "StringLiteral",
+      "offset": 966,
+      "length": 17,
+      "value": "\"Token not found\""
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1031,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
+      "kind": "StringLiteral",
+      "offset": 1059,
+      "length": 40,
+      "value": "\"SaveSounds requires an array of tokens\""
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1147,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
+      "kind": "StringLiteral",
+      "offset": 1175,
+      "length": 15,
+      "value": "\"Token expired\""
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1237,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
+      "kind": "StringLiteral",
+      "offset": 1265,
+      "length": 28,
+      "value": "\"Start valid date incorrect\""
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1340,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
+      "kind": "StringLiteral",
+      "offset": 1368,
+      "length": 16,
+      "value": "\"Could not play\""
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1432,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
+      "kind": "StringLiteral",
+      "offset": 1461,
+      "length": 30,
+      "value": "\"Device media already playing\""
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1539,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
+      "kind": "StringLiteral",
+      "offset": 1568,
+      "length": 30,
+      "value": "\"Device telephone call active\""
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/exceptions\/ErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1643,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/matching\/MatchAudiocodeLocally.swift",
+      "kind": "BooleanLiteral",
+      "offset": 179,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/matching\/MatchAudiocodeLocally.swift",
+      "kind": "IntegerLiteral",
+      "offset": 222,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/matching\/MatchController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 189,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/matching\/MatchController.swift",
+      "kind": "StringLiteral",
+      "offset": 222,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/matching\/MatchController.swift",
+      "kind": "StringLiteral",
+      "offset": 249,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/matching\/MatchController.swift",
+      "kind": "StringLiteral",
+      "offset": 276,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/matching\/MatchController.swift",
+      "kind": "StringLiteral",
+      "offset": 318,
+      "length": 8,
+      "value": "\"ma.php\""
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/matching\/MatchController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 362,
+      "length": 2,
+      "value": "83"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/network\/NetworkCall.swift",
+      "kind": "StringLiteral",
+      "offset": 188,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/network\/NetworkCall.swift",
+      "kind": "StringLiteral",
+      "offset": 219,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/refreshing\/RefreshAudiocode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 161,
+      "length": 5,
+      "value": "60000"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/refreshing\/ReverseAudiocode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 161,
+      "length": 5,
+      "value": "60000"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/refreshing\/ReverseAudiocode.swift",
+      "kind": "Array",
+      "offset": 204,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/token\/localArray\/LocalTokensArray.swift",
       "kind": "StringLiteral",
       "offset": 173,
       "length": 13,
       "value": "\"EverlinkSAT\""
     },
     {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/token\/localArray\/LocalTokensArray.swift",
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/token\/localArray\/LocalTokensArray.swift",
       "kind": "StringLiteral",
       "offset": 226,
       "length": 8,
       "value": "\"gs.php\""
     },
     {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/util\/Doppler.swift",
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/token\/CreateToken.swift",
+      "kind": "StringLiteral",
+      "offset": 173,
+      "length": 7,
+      "value": "\"t.php\""
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/token\/DeviceToken.swift",
+      "kind": "StringLiteral",
+      "offset": 198,
+      "length": 21,
+      "value": "\"EverLinkAccessToken\""
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/token\/DeviceToken.swift",
+      "kind": "StringLiteral",
+      "offset": 266,
+      "length": 25,
+      "value": "\"EverLinkAccessTokenTime\""
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/util\/Doppler.swift",
       "kind": "IntegerLiteral",
       "offset": 164,
       "length": 2,
       "value": "45"
     },
     {
-      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/util\/Doppler.swift",
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/util\/Doppler.swift",
       "kind": "IntegerLiteral",
       "offset": 205,
       "length": 1,
       "value": "2"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/Everlink.swift",
+      "kind": "BooleanLiteral",
+      "offset": 383,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/Everlink.swift",
+      "kind": "BooleanLiteral",
+      "offset": 424,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/Everlink.swift",
+      "kind": "IntegerLiteral",
+      "offset": 471,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/Everlink.swift",
+      "kind": "IntegerLiteral",
+      "offset": 517,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nathankuruvilla\/Desktop\/Everlink\/projects\/main\/iOS\/library\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/EverlinkBroadcastSDK\/Everlink.swift",
+      "kind": "BooleanLiteral",
+      "offset": 554,
+      "length": 5,
+      "value": "false"
     }
   ]
 }

@@ -1,16 +1,16 @@
 PODS:
-  - EverlinkBroadcastSDK (3.0.0-beta.1)
+  - EverlinkBroadcastSDK (3.0.0-beta.2)
 
 DEPENDENCIES:
-  - EverlinkBroadcastSDK (= 3.0.0-beta.1)
+  - EverlinkBroadcastSDK (= 3.0.0-beta.2)
 
 SPEC REPOS:
   trunk:
     - EverlinkBroadcastSDK
 
 SPEC CHECKSUMS:
-  EverlinkBroadcastSDK: 9495ab2e562afc40d31b0fe333869454cff82959
+  EverlinkBroadcastSDK: b9594347cc213f83288ed3cf84d3696aba69e4d3
 
-PODFILE CHECKSUM: 343e8dfa6cd3d72826933a67be526e53a5dad702
+PODFILE CHECKSUM: 413207c628659fa805c16c7857c4ab814ba7c85e
 
 COCOAPODS: 1.16.2

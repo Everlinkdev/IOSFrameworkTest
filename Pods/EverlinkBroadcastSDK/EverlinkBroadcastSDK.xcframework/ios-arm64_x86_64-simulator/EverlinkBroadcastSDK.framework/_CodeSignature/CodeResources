@@ -4,13 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/EverlinkBroadcastSDK-Swift.h</key>
-		<data>
-		d/6rAefr6W5T9AbB8n86YGgGKjU=
-		</data>
 		<key>Headers/EverlinkBroadcastSDK.h</key>
 		<data>
-		jqJdjyNvg8nyO8+eSsE6M0yWbM4=
+		co9qoXs0UV9FfdqVcdmlshwKAiw=
 		</data>
 		<key>Headers/ObjCErrorHandle.h</key>
 		<data>
@@ -18,67 +14,60 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		evNZtyH+ur+eR93z1VwhSYHVN38=
+		wxTtJ2rwHOiqwtwci2k+ay53nrE=
 		</data>
 		<key>Modules/EverlinkBroadcastSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		DKHD2bvxkgyltvI6KYxiw5DEk20=
+		uwYwSTGIbbNv/hBhKBAE/dYwk6s=
 		</data>
 		<key>Modules/EverlinkBroadcastSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		hiukUdQ++PDx/oOfiCl+z7R+mQs=
+		S1ncIuj+dgjyTEihYyU6xm4diQM=
 		</data>
 		<key>Modules/EverlinkBroadcastSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Nb1cAfdEa5AmIy//9408qpYHa0Q=
+		Kf5ReGcvuTd0LNPmW7o69U5MfWw=
 		</data>
 		<key>Modules/EverlinkBroadcastSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		hiukUdQ++PDx/oOfiCl+z7R+mQs=
+		S1ncIuj+dgjyTEihYyU6xm4diQM=
 		</data>
 		<key>Modules/EverlinkBroadcastSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		DZPgdUHIU0QzsHvmPZvzL9QN6uo=
+		yJT8qbT1soXwJ61EpWtDIWGWT1o=
 		</data>
 		<key>Modules/EverlinkBroadcastSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		DKHD2bvxkgyltvI6KYxiw5DEk20=
+		uwYwSTGIbbNv/hBhKBAE/dYwk6s=
 		</data>
 		<key>Modules/EverlinkBroadcastSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		OEjHJChgPtLzKpa66y6DQXyMrk8=
+		7TNc5GMO6yGfQ5JH1nUFtsvQ7po=
 		</data>
 		<key>Modules/EverlinkBroadcastSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		YP9+RWLdXwxqohJBOgWJKatNgBU=
+		pbXz4oureaMLdm//qOiuKHnlvKk=
 		</data>
 		<key>Modules/EverlinkBroadcastSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		OEjHJChgPtLzKpa66y6DQXyMrk8=
+		7TNc5GMO6yGfQ5JH1nUFtsvQ7po=
 		</data>
 		<key>Modules/EverlinkBroadcastSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		PGHdiVH6WEQ223preS7SgYYVBls=
+		SeVzJIwzmsCD8YbiHwwWFyHaAxc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		pjDtAz1yx1zD/MoU6fjhDY9Fmmw=
+		+VsItV5iMaklRBNk7yqmepDVCz8=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/EverlinkBroadcastSDK-Swift.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/DJnmugxRp+cUOH7trcr/U33Fqq2eoakXpwe6u9fLEU=
-			</data>
-		</dict>
 		<key>Headers/EverlinkBroadcastSDK.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6bO1NtDJ4Dmm3yRqn4ua0doEu6MJxxO6IMGYaK6hHUI=
+			8jgmfrntBztjqMxKFY1avohKXkJ69OiqdgxAX8+CaQ4=
 			</data>
 		</dict>
 		<key>Headers/ObjCErrorHandle.h</key>
@@ -92,77 +81,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			giIFnvymwSzGhAl6bCkEFcFX43YMWwYZmmUxrjYHQCA=
+			eWgBY7qTVc5Z8vadZJ7DBpg0lWnLgDo/q4T6ahaRvV0=
 			</data>
 		</dict>
 		<key>Modules/EverlinkBroadcastSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q3lNiURUxsNeDxGcEb+sPrhx7vQ5UX5Tt4N9+fdPiyU=
+			IQjub16dcnnfnrkaFKscpF7kjlO/JHihYZAMu5o0rBc=
 			</data>
 		</dict>
 		<key>Modules/EverlinkBroadcastSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7RhKvvQydqEwTTnU/1vOOa3JuTHNObzC18oT4ZCazlY=
+			ShvCKSV8zRgqYe1gEHRt6nO/kimaFXuco13RF5ecoVQ=
 			</data>
 		</dict>
 		<key>Modules/EverlinkBroadcastSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q3lNiURUxsNeDxGcEb+sPrhx7vQ5UX5Tt4N9+fdPiyU=
+			IQjub16dcnnfnrkaFKscpF7kjlO/JHihYZAMu5o0rBc=
 			</data>
 		</dict>
 		<key>Modules/EverlinkBroadcastSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			e50uYi0DDp4y0qn5+GyirFcXJ0P/4q70sgrDTiSN45k=
+			0opCwANEYWgsjGhPDvwHU4VuVAcbYrhvNHz3K6pVWPU=
 			</data>
 		</dict>
 		<key>Modules/EverlinkBroadcastSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			giIFnvymwSzGhAl6bCkEFcFX43YMWwYZmmUxrjYHQCA=
+			eWgBY7qTVc5Z8vadZJ7DBpg0lWnLgDo/q4T6ahaRvV0=
 			</data>
 		</dict>
 		<key>Modules/EverlinkBroadcastSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SHnpOGvl4VKv/3zxpOTOY40vEsu81rLsVmOWE9BggAk=
+			Zhe1hUkRBcUGSsgBSW5qfPPLmpmebB8qfzFvSFcq44Y=
 			</data>
 		</dict>
 		<key>Modules/EverlinkBroadcastSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yfqDYqbo3qlqqyVSZQRRDPqVrXzDxdyQgqDzIbgJBgQ=
+			O5qXuOMxmLmlumQmwN5cCzrhTReggSvlkfhLAgApbFI=
 			</data>
 		</dict>
 		<key>Modules/EverlinkBroadcastSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SHnpOGvl4VKv/3zxpOTOY40vEsu81rLsVmOWE9BggAk=
+			Zhe1hUkRBcUGSsgBSW5qfPPLmpmebB8qfzFvSFcq44Y=
 			</data>
 		</dict>
 		<key>Modules/EverlinkBroadcastSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FqDEue/l/ui9gGyxPbNzK5iS3Twxtg79MdH+8YYNsG4=
+			zNP/cmZi5YrOvK8ClQUBh556ggLLGJ7YkHo06Bb46rc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QalQ1R3xk4QSsxszRr3s6dwwG0XR0gG2nGdx8s5ivEU=
+			o0P/o8vsHrCjz1H0vE3ggDlCU28hezh8phDrsLrvclQ=
 			</data>
 		</dict>
 	</dict>

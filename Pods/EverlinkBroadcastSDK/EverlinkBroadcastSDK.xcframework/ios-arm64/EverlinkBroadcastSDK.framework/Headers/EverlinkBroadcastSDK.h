@@ -2,7 +2,7 @@
 //  EverlinkBroadcastSDK.h
 //  EverlinkBroadcastSDK
 //
-//  Created by Nathan Lewis Kuruvilla  on 08/11/2020.
+//  Created by Nathan Kuruvilla on 25/11/2024.
 //
 
 #import <Foundation/Foundation.h>
